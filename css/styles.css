@@ -1,0 +1,226 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+/* Title Section */
+#title {
+  text-align: left;
+}
+
+#navbarSupportedContent {
+  padding-left: 370px;
+}
+
+.title-heading {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+#title .container-fluid {
+  padding: 1.25% 15% 5%;
+}
+
+.title-image {
+  transform: rotate(25deg);
+  width: 60%;
+  margin-top: 70px;
+  margin-right: 25px;
+  position: absolute;
+  right: 30%;
+}
+
+.nav-item {
+  margin-right: 60px;
+}
+
+.nav-link {
+  font-size: 1.0625rem;
+}
+
+.intro {
+  margin-top: 80px;
+}
+
+.navbar-brand {
+  font-family: "Henny Penny";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.btn2 {
+  margin: 5% 3% 5% 0;
+}
+
+.btn1 {
+  background-color: #000;
+  margin: 5% 3% 5% 0;
+}
+
+.btn1:hover {
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
+}
+
+.nav {
+  padding-left: 0;
+}
+
+.pawprint-icon {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+/* Feature Section */
+#features {
+  padding: 7% 15%;
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.feature-paragraph {
+  color: #696969;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-heading {
+  font-size: 1.5rem;
+}
+
+/* CTA Section */
+#cta {
+  padding: 7% 22% 5%;
+}
+
+.cta-heading {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/* footer Section */
+#footer {
+  padding: 7% 15% 2%;
+}
+
+.footer-icons {
+  padding: 0% 1.25% 2% 1.25%;
+}
+
+.twitter-icon:hover {
+  color: #3cd9ff;
+}
+
+.facebook-icon:hover {
+  color: #0099ff;
+}
+
+.instagram-icon:hover {
+  color: #fd267d;
+}
+
+.telegram-icon:hover {
+  color: #2452d4;
+}
+
+.footer-hyper-link {
+  color: inherit;
+}
+
+.copy-right {
+  font-size: 1.1rem;
+}
+
+/* Sections */
+.colored-sections {
+  background-color: rgb(255, 77, 100);
+  color: #fff;
+}
+
+.colored-sections2 {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.white-sections {
+  background-color: #fff;
+}
+
+/* Media Query Breakpoints */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
